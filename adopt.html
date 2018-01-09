@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Animal Rescue Website</title>
+  <title>Adopt Page</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
@@ -12,34 +12,59 @@
 </head>
 <body>
   <header class="grid">
-    <h1 class="unit xs-1-2 s-1-2 m-1-3 l-1-4 zetta text-push-none island-half">
+    <h5 class="unit xs-1-2 s-1-2 m-1-3 l-1-4 zetta text-push-none island-half">
       <a class="navyblue zetta" href="index.html">Paw Prints</a>
-    </h1>
+    </h5>
     <nav class="zindex-3 unit xs-1-2 s-1-2 m-2-3 l-3-4 pad-top-half push-none b visible">
       <ul class="list-group-inline right">
         <li class="list-group-item gutter-half pad-top pad-bottom-half">
-          <a class="mega text-center b coda" href="index.html">Home</a>
+          <a class="mega text-center b" href="index.html">Home</a>
         </li>
         <li class="list-group-item gutter-half pad-top pad-bottom-half">
-          <a class="mega text-center b coda" href="rescues.html">Avaliable rescues</a>
+          <a class="mega text-center b" href="rescues.html">Avaliable rescues</a>
         </li>
         <li class="list-group-item gutter-half pad-top pad-bottom-half">
-          <a class="mega text-center b coda" href="adopt.html">Adopt a rescue</a>
+          <a class="mega text-center b" href="adopt.html">Adopt a rescue</a>
         </li>
         <li class="list-group-item gutter-half pad-top pad-bottom-half">
-          <a class="mega text-center b coda" href="">Training</a>
+          <a class="mega text-center b" href="">Training</a>
         </li>
         <li class="list-group-item gutter-half pad-top pad-bottom-half">
-          <a class="mega text-center b coda" href="">Contact us</a>
+          <a class="mega text-center b" href="">Contact us</a>
         </li>
       </ul>
     </nav>
   </header>
-  <main class="push-double">
-    <div class="rescue max-length pad-top-double">
-      <h1 class="push bold giga">Paw Prints Rescue Adoption Application.</h1>
-    </div>
+  <main>
+    <form class="island" method="POST" action="http://formspree.io/abdu0407@algonquinlive.com">
+      <input type="hidden" name="redirect" value="">
+      <fieldset>
+      <h6 class="push bold giga">Paw Prints Rescue Adoption Application.</h6>
     <p class="kilo line-1-2">Please fill in as much information as possible in each tab. If the application is not complete, we cannot consider you for one of our animals. Adopting a rescued animal is a serious endeavor and should not be done as a "spur of the moment" action.</p>
+    <label class="left w-1-4 milli lato" for="name">Name: </label>
+    <input class="left w-3-4 push" id="name" name="name" placeholder=" Julie Appleseed">
+    <label class="left w-1-4 milli lato" for="phone">Phone: </label>
+    <input class="left w-3-4 push" id="phone" phone="phone">
+    <label class="left w-1-4 milli lato" for="email">Email: </label>
+    <input class="left w-3-4 push" id="email" email="email" placeholder="julieappleseed@hotmail.com">
+    <label class="left w-1-4 milli lato" for="age">Age: </label>
+    <input class="left w-3-4 push" id="age" email="age">
+    <label class="left w-1-4 milli lato" for="radio">Gender: </label>
+    <input type="radio" id="gender" name="male">
+    <label for="gender">Male</label>
+    <input type="radio" id="gender" name="female">
+    <label for="gender">Female</label>
+    <label class="left w-1-4 milli lato" for="radio">Adopted an animal before: </label>
+    <input type="checkbox" id="yes" name="yes">
+    <label for="checkbox">Yes</label>
+    <input type="checkbox" id="no" name="no">
+    <label for="checkbox">No</label>
+    <p>which of the following best describes the animal that you're looking for?</p>
+    </fieldset>
+      <div class="text-center width-full push">
+        <button class="btn-ghost" type="submit" value="send">Submit</button>
+      </div>
+      </form>
   </main>
   <footer>
     <small class="inline-block push-0 micro pad-top-half">©PawPrints2018</small>
