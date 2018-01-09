@@ -1,0 +1,156 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: 'Lato', sans-serif;
+  background-color: #E1D7CC;
+}
+
+.homepage {
+  background-image: url(../images/animal-banner.jpg);
+  background-size: cover;
+  background-position: bottom,center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  min-height: 30rem;
+  height: 80vh;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navyblue {
+  color: #144C7B;
+  text-decoration: none;
+  position: absolute;
+}
+
+.orange {
+  color: #E05442;
+  text-align: left;
+}
+
+.adopt {
+  color: #E05442;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.rescue {
+  color: #E05442;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+div {
+  display: block;
+}
+
+.max-length {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 36em;
+  width: 100%;
+}
+
+.b {
+  color: #ffff;
+}
+
+.right {
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+button, .btn {
+  background-color : #144C7B;
+  color: #ffff;
+  text-decoration: none;
+  border: 1px solid #144C7B;
+  display: inline-block;
+  padding: .375em .75em .42em;
+  text-transform: uppercase;
+}
+
+.btn a {
+  color: #ffff;
+}
+
+a:hover,
+a:focus,
+.current {
+  color: #E05442;
+}
+
+.line-1-2 {
+  display:block;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.push {
+  padding-top: 5rem;
+  padding-right: 5rem;
+}
+
+.push-1 {
+  padding-top: 12rem;
+  padding-right: 5rem;
+}
+
+.list-group-inline > li, .list-group--inline > li {
+    display: inline-block;
+  }
+
+.list-group, .list-group-inline, .list-group--inline {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+@media only screen and (min-width: 38em) {
+.gutter-half, .gutter-1-2 {
+    padding-left: .7rem;
+    padding-right: .7rem;
+  }
+.mega {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.visible {
+  display: block;
+}
+
+.yotta {
+  font-size: 2.2807rem;
+  line-height: 3.125rem;
+}
+.giga {
+  font-size: 1.5rem;
+  text-align: left;
+}
+.bold {
+ font-weight: bold;
+}
+.kilo {
+  text-align: left;
+  font-size: 1.125rem;
+  color: #144C7B;
+}
+}
