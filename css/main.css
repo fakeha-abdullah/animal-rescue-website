@@ -68,8 +68,17 @@ a {
   padding-top: 1.5rem;
 }
 
+.mega {
+  color: #e05442;
+}
+
 div {
   display: block;
+}
+
+small, .milli {
+  font-size: .9372rem;
+  line-height: 1.3rem;
 }
 
 .btn-ghost {
