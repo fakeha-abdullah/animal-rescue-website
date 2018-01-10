@@ -175,9 +175,14 @@ a:hover, a:focus, .current {
     text-align: left;
     color: #144c7b;
   }
+
+.html {
+    font-size: 110%;
+    line-height: 1.4;
+}
 }
 
 @media only screen and (min-width: 56.25em){
-.info-card-grid__item {
+.info-card-grid_item {
   width: 49.25%;
 }
