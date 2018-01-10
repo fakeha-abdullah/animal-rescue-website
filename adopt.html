@@ -44,24 +44,61 @@
     </nav>
   </header>
   <main role="main" id="main">
-  <section class="Paw Prints Rescue Adoption Application pad-t-2 pad-b-2"
+    <section class="contact pad-t-2 pad-b-2">
       <div class="max-length">
-        <h2 class="exa gutter-half">Please fill in as much information as possible in each tab. If the application is not complete, we cannot consider you for one of our animals. Adopting a rescued animal is a serious endeavor and should not be done as a "spur of the moment" action.</h2>
-        <form class="push-0" method="POST" action="https://formspree.io/abdu0407@algonquinlive.com"
-        <div class="unit gutter-half pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
-       <label for="name">Name: </label>
-       <input id="name" name="name" placeholder=" Julie Appleseed">
-     </div>
-  <div class="unit gutter-half pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
- <label for="age">Age: </label>
- <input id="age" type="number" name="age" required>
-</div>
-    <p>which of the following best describes the animal that you're looking for?</p>
-      <div class="text-center width-full push">
-        <button class="btn-ghost" type="submit" value="send">Submit</button>
+        <h2 class="mega">Paw Prints Rescue Adoption Application</h2>
+        <p class="gutter-half">Please fill in as much information as possible in each tab. If the application is not complete, we cannot consider you for one of our animals. Adopting a rescued animal is a serious endeavor and should not be done as a "spur of the moment" action.</p>
+      <main>
+        <form class="push-0" method="POST" action="http://formspree.io/abdu0407@algonquinlive.com">
+          <fieldset>
+            <div class="push">
+              <label for="name">Name</label>
+              <input id="name" class type="text" name="name" placeholder=" Julie Appleseed">
+            </div>
+            <div class="push">
+            <label for="age">Age: </label>
+            <input id="age" type="number" name="age" required>
+           </div>
+           <div class="push">
+              <label for="email">Your Email</label>
+              <input id="email" type="email" name="email" placeholder="julieappleseed@gmail.com">
+            </div>
+           <div class="push">
+           <label for="address">Street Address </label>
+           <input id="address" name="address">
+         </div>
+         <div class="push">
+         <label for="animal-choice">Please choose animal type: </label>
+         <select class="push" id="animal-choice">
+           <option value>Choose an option</option>
+           <option>Dog</option>
+           <option>Cat</option>
+           <option>Rabbit</option>
+           <option>Bird</option>
+         </select>
+        </div>
+        <div class="push">
+        <label for="animal">Where will your animal be kept during the day?: </label>
+        <input id="animal" type="text" name="animal" required>
+       </div>
+       <div class="push">
+       <label for="choose yes">Do you own any other pets? </label>
+       <input id="choose yes" type="radio" name="choose">
+       <label for="choose yes">Yes</label>
+       </label>
+       <label for="choose no"></label>
+       <input id="choose no" type="radio" name="choose">
+       <label for="choose no">No</label>
+       </label>
       </div>
-      </form>
-  </main>
+          </fieldset>
+          </form>
+          <div>
+            <button class="btn" type="submit">Submit</button>
+          </div>
+      </div>
+    </main>
+  </section>
   <footer>
     <small class="inline-block push-0 micro pad-top-half">©PawPrints2018</small>
   </footer>
